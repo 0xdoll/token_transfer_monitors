@@ -1,0 +1,17 @@
+{
+  "name": "tron_token_monitor",
+  "version": "1.0.0",
+  "description": "monitor token transfer on Tron blockchain network.",
+  "main": "usdt_tron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "0xdoll",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-schedule": "^2.1.0",
+    "redis": "^4.1.0",
+    "tronweb": "^4.1.0"
+  }
+}
