@@ -1,0 +1,17 @@
+{
+  "name": "ethereum",
+  "version": "0.2.0",
+  "description": "monitor token balance change on eth or bsc.",
+  "main": "bsc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ethers": "^5.6.5",
+    "node-schedule": "^2.1.0",
+    "redis": "^4.1.0"
+  }
+}
